@@ -1,1 +1,3 @@
 splunk-binaries
+*.gdoc
+*.gdraw

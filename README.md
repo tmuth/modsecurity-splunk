@@ -1,5 +1,5 @@
 # modsecurity-splunk
-Creates an nginx reverse proxy server with modsecurity icluded. Rules in modsec-splunk.conf will prevent the datamodel and tstats commands.
+Creates an nginx reverse proxy server with modsecurity icluded. Rules in [modsec-splunk.conf](https://github.com/tmuth/modsecurity-splunk/blob/main/modsecurity/modsec-splunk.conf) will prevent the datamodel and tstats commands.
 
 ## Installation
 - docker pull krish512/modsecurity

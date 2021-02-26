@@ -29,6 +29,6 @@ RUN echo 'export PATH=$PATH:${SPLUNK_HOME}/bin' >> ~/.bashrc
 RUN echo 'alias shome="cd $SPLUNK_HOME"' >> ~/.bashrc
 RUN echo -e '[user_info]\nUSERNAME = admin\nPASSWORD = welcome1' > /opt/splunkforwarder/etc/system/local/user-seed.conf
 
-CMD ["/usr/local/nginx/nginx", "-g", "daemon on;"]
+#Comment-out the entrypoint if you don't want to install / config a UF
 ENTRYPOINT ["/sbin/entrypoint.sh"]
 
